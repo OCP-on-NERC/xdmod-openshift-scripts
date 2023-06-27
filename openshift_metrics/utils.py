@@ -115,7 +115,7 @@ def write_metrics_log(metrics_dict, file_name, openshift_cluster_name):
             partition_name = ''
             qos_name = ''
             account_name = namespace
-            group_name = cf_pi
+            group_name = namespace
             gid_number = cf_project_id
             user_name = cf_pi
             uid_number = cf_project_id
